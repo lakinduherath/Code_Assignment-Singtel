@@ -80,3 +80,13 @@
     
 	- Implemented Shark and Clownfish class as a sub-class of Fish & having `FishFeatures`.
 	- Added unit tests.
+
+3. Dolphins are not exactly fish, yet, they are good swimmers
+
+    a. Can you model a dolphin that swims without inheriting from a fish class?
+    b. How do you avoid duplicating code or introducing unneeded overhead
+
+	- Added Dolphin class by implementing Swimming interface instead of extending from Fish.
+	- Dolphins are not exactly fish, therefore need to implement swim features separately for Dolphin. 
+	  It will not be duplicate of codes or overhead.
+  
