@@ -12,19 +12,13 @@ class BirdTest {
 	}
 
 	@Test
-    public void flyTest() { 
-		String exprcted = "I am flying";
-		String actual = bird.fly();
-		
-        assertEquals(exprcted, actual);
+    public void flyTest() {       
+        assertEquals("I am flying", bird.fly());
     }
       
     @Test
-    public void singTest() { 
-    	String exprcted = "I am singing";
-		String actual = bird.sing();
-		
-		assertEquals(exprcted, actual);
+    public void singTest() {        
+        assertEquals("I am singing", bird.sing());
     }
          
 }
