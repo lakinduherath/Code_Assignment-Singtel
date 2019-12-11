@@ -39,3 +39,20 @@
 		- Assumption: Rooster is a specific type(subtype) of Chicken. 
 	- Without using Inheritance, we could create Rooster as a separate class implementing the Animal interface with extra methods that's specific to Chicken & Rooster. 
 	  This would be duplicating implementation at Chicken/Rooster, hence avoided.
+
+4. Can you model a parrot? We are specifically interested in three parrots, one that lived in a house with dogs one in a house with cats, the other lived on a farm next to the rooster.
+
+    a. A parrot living with dogs says: “Woof, woof”
+    
+    b. A parrot living with cats says: “Meow”
+    
+    c. A parrot living near the rooster says: “Cock-a-doodle-doo”
+    
+    d. How do you keep the parrot maintainable? What if we need another parrot lives near a Duck? Or near a phone that rings frequently?
+    
+	- Created a Parrot class with constructor to accept object with imitating sound(which implements  that implements `Sounding` interface).
+	- This way we are able to create parrots that make sound depending on object passes & without making changes to the Parrot class itself.
+	- Parrot is maintainable in a way when it is instantiated, it need to have an object of `Sounding` type. No changes requeired in Parrot class. 
+	  If it's Duck class, only needed is implementing `Sounding` for Duck.
+	  If it's phone class, only needed is implementing `Sounding` for Phone.
+  
