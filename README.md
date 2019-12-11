@@ -54,5 +54,18 @@
 	- This way we are able to create parrots that make sound depending on object passes & without making changes to the Parrot class itself.
 	- Parrot is maintainable in a way when it is instantiated, it need to have an object of `Sounding` type. No changes requeired in Parrot class. 
 	  If it's Duck class, only needed is implementing `Sounding` for Duck.
-	  If it's phone class, only needed is implementing `Sounding` for Phone.
-  
+	  If it's phone class, only needed is implementing `Sounding` for Phone. 
+
+
+# B
+1. In addition to the birds, can you model a fish?
+
+    a. Fishes don’t sing
+    
+    b. Fishes don’t walk
+    
+    c. Fishes can swim
+    
+	- Created a Fish class by implementing `Swimming` interface.
+	- Added unit tests.
+
