@@ -1,6 +1,8 @@
 package com.singtel.assignment.model.features;
 
-public interface Singing {
+import com.singtel.assignment.model.Animal;
+
+public interface Singing extends Animal{
 
 	public String sing();
 }

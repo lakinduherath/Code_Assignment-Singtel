@@ -110,3 +110,36 @@
 	- Implemented metamorphosis method which returns a Butterfly.
 	- Added unit tests.
 
+
+# E
+Suppose you have an array of animals, e.g.
+
+    Animal[] animals = new Animal[]{
+    new Bird(),
+    new Duck(),
+    new Chicken(),
+    new Rooster(),
+    new Parrot(),
+    new Fish(),
+    new Shark(),
+    new Clownfish(),
+    new Dolhpin(),
+    new Frog(),
+    new Dog(),
+    new Butterfly(),
+    new Cat()
+    };
+Note: The above instantiation may be different if you chose to set up your object model
+differently… (hopefully you did)
+
+1. Can you share the code to count:
+
+    a. how many of these animals can fly?
+    
+    b. how many of these animals can walk?
+    
+    c. how many of these animals can sing?
+    
+    d. how many of these animals can swim?
+    
+	- Implemented in Solution class.
