@@ -101,3 +101,12 @@
 	- Created Butterfly class with `Flying` implemented.
 	- Added unit tests.
 
+2. Can you optimize your model to account for the metamorphosis from caterpillar to butterfly?
+    a. A caterpillar cannot fly
+
+    b. A caterpillar can walk (crawl)
+    
+	- Created Caterpillar Class with Walking interface implemented.
+	- Implemented metamorphosis method which returns a Butterfly.
+	- Added unit tests.
+
