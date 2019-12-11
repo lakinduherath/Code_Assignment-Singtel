@@ -90,3 +90,14 @@
 	- Dolphins are not exactly fish, therefore need to implement swim features separately for Dolphin. 
 	  It will not be duplicate of codes or overhead.
   
+  
+# D
+1. Can you model a butterfly?
+
+    a. A butterfly can fly
+
+    b. A butterfly does not make a sound
+    
+	- Created Butterfly class with `Flying` implemented.
+	- Added unit tests.
+
