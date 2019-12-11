@@ -69,3 +69,14 @@
 	- Created a Fish class by implementing `Swimming` interface.
 	- Added unit tests.
 
+2. Can you specialize the fish as a Shark and as a Clownfish?
+    a. Sharks are large and grey
+
+    b. Clownfish are small and colourful (orange)
+    
+    c. Clownfish make jokes
+    
+    d. Sharks eat other fish
+    
+	- Implemented Shark and Clownfish class as a sub-class of Fish & having `FishFeatures`.
+	- Added unit tests.
